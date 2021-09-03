@@ -1,0 +1,56 @@
+body {
+    background-color:rgb(32, 26, 9);
+    color: white;
+    font-family: 'Klee One', cursive;
+}
+
+footer{
+    background-color: rgb(89, 89, 228);
+}
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#login {
+    color: white;
+    position: absolute;
+    left:87%;
+}
+.whitebg{
+    background-color: white;
+    position: absolute;
+    left:80%;
+}
+
+body > table > tbody > tr {
+background-color: rgb(32, 26, 9);
+color: white;
+}
+
+ul, h2{
+    color: white;
+}
+
+.fa-lemon{
+    color: yellow;
+}
+
+a:hover{
+   /*font-size: x-large;*/
+   border-style: inset;
+   border-color: crimson;
+}
+
+img {
+   /* width: 40%;*/
+   /*width: 300px;*/
+   width: 20rem;
+}
+
+img:hover{
+    width: 30rem;
+    border-style: solid;
+}
+

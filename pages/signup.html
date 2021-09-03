@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/style.css"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/9910795a8e.js" crossorigin="anonymous"></script>
+
+   
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <i class="far fa-lemon"></i>
+            
+        <b>CODIFY</b>
+    <a href="../index.html">Ir a home</a>
+
+</header>
+<br><br>
+<form action="datos.php" method="get">
+
+<label for="nombre">ingresa tu nombre</label>
+<input id="fname" type="text" name="nombre" placeholder="escribe tu nombre"><br><br>
+
+<label for="apellido">ingresa tu apellido</label>
+<input id="flastname" type="text" name="apellido" placeholder="escribe tu apellido"><br><br>
+
+<label for="birthdate">Ingresa tu fecha de nacimiento</label>
+<input type="date" id="bithdate" name="birthdate">
+<br><br>
+
+<label for="pais">selecciona tu pais</label>
+<select name="pais" id="fpais">
+<option value="">---</option>
+<option value="argentina">argentina</option>
+<option value="mexico">mexico</option>
+<option value="chile">chile</option>
+<option value="uruguay">uruguay</option>
+</select>
+<br><br>
+
+<label for="mail">ingresa tu mail</label>
+<input id="fmail" type="email" name="mail" placeholder="escribe tu mail"><br><br>
+
+<label for="mail">ingresa tu mail</label>
+<input id="fvalidatemail" type="email" name="validmail" placeholder="reescribe tu mail"><br><br>
+
+<label for="pswd">ingresa tu contraseña</label>
+<input id="fpwd" type="password" name="pass" placeholder="crea una contraseña"><br><br>
+
+<label for="pswd">ingresa tu contraseña</label>
+<input id="fvalidatepwd" type="password" name="validpass" placeholder="confirma tu contraseña"><br><br>
+
+<label for="genero">Genero</label>
+<input type="radio" name="genero" id="ghombre">hombre
+<input type="radio" name="genero" id="gmujer">mujer
+<br><br>
+
+<input type="reset" value="reset formulario">
+<input type="submit" value="enviar">
+<br><br>
+</form>
+
+
+
+
+
+
+<footer>
+        
+    <a href="components/contact.html">Contacto</a>
+
+</footer>
+</body>
+</html>
